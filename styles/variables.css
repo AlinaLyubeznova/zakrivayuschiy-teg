@@ -2,7 +2,7 @@
 
 :root {
   --main-font: 'Inter', sans-serif;
-  --accent-font: 'PressStart2P', sans-serif;
+  --accent-font: 'PressStart2P', fantasy;
   --card-text-font-weight: 400;
   --card-title-font-weight: 700;
   --bg-color: #fff;
