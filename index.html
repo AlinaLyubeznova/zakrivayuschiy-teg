@@ -440,24 +440,22 @@
         class="card__save-button" 
         type="button" 
         onclick="window['dialog-id'].showModal();"
-        aria-controls="dialog-id"
-      >
+        aria-controls="dialog-id">
         <svg class="button__save-icon" width="29" height="28" viewBox="0 0 29 28">
-          <use href="./svg/floppy.svg#floppy" />
+          <use href="./svg/floppy.svg#floppy">
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
       <dialog id="dialog-id">
         <form method="dialog" class="dialog_form">
           <svg class="button__save-icon dialog_floppy" width="29" height="28" viewBox="0 0 29 28">
-            <use href="./svg/floppy.svg#floppy" />
+            <use href="./svg/floppy.svg#floppy">
           </svg>
           <span class="button__text dialog_text">Вставьте дискету, чтобы продолжить</span>
           <button
             class="card__like-button dialog_button"
             type="submit" 
-            onclick="window['dialog-id'].close()"
-          >
+            onclick="window['dialog-id'].close()">
             <span class="button__text dialog_text">OK</span>
           </button>
         </form>
